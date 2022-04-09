@@ -1,4 +1,62 @@
-.navbar-class {
+.navbar-class { 
     display: flex;
     justify-content: space-between;
+    height: 10vh;
 }
+
+.left {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+.name {
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+
+.right {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: 1;
+}
+
+.options {
+    flex: 10;
+}
+
+.options>ul {
+    display: flex;
+    gap: 2rem;
+    margin-right: 1rem;
+    list-style-type: none;
+    
+}
+
+.options>ul li:hover {
+    color: var(--green);
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.button {
+    border: 0;
+    border-radius: 1rem;
+    padding: 0.5rem;
+    background-color: var(--green);
+    font-size: 1rem;
+    cursor: pointer;
+    color: #fff;
+    box-shadow: 5px 5px 12px 8px rgb(10, 200, 40,0.1);
+}
+
+.button:hover {
+    background-color: #09bb68;
+}
+
+.options>ul li{
+    font-size: 1rem;
+}
+

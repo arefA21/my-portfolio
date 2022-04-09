@@ -13,12 +13,12 @@ export default function Navbar() {
           <ul>
             <li>Home</li>
             <li>Experience</li>
-            <li>My Blog</li>
-            <li>Personal info</li>
-            <li>more</li>
+            <li>Blog</li>
+            <li>Portfolio</li>
+            <li>More</li>
           </ul>
         </div>
-          <button className="button">Contact us</button>
+        <button className="button">Contact</button>
       </div>
     </div>
   );
