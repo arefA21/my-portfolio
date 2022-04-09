@@ -1,0 +1,26 @@
+@font-face {
+  font-family: DMsans;
+  src: url(./fonts/DMsans.ttf);
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  font-family: 'DMsans';
+  font-size: 1.3rem;
+}
+
+:root {
+  --bluesky: #00d8d6;
+  --green: #05c46b;
+  --black: #1e272e;
+  --gray: #808e9b;
+  --orange: #ffa801;
+
+}
+
+.App {
+  padding: 0.5rem 3.5rem;
+  overflow: hidden;
+  color: var(--black);
+}
